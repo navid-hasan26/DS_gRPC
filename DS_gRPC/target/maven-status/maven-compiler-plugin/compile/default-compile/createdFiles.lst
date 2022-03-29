@@ -5,7 +5,6 @@ com\demo\grpc\User$LogInResponse$Builder.class
 com\demo\grpc\userGrpc.class
 services\userService.class
 com\demo\grpc\userGrpc$userBaseDescriptorSupplier.class
-com\grpc\navid026\user.class
 com\demo\grpc\User$LogInRequestOrBuilder.class
 com\demo\grpc\userGrpc$MethodHandlers.class
 com\demo\grpc\User$SignUpResponse.class
@@ -29,6 +28,5 @@ com\demo\grpc\User$LogInResponse$1.class
 com\demo\grpc\User$SignUpRequestOrBuilder.class
 com\demo\grpc\User$LogInResponse.class
 services\gRPCServer.class
-com\grpc\navid026\usergRPC.class
 com\demo\grpc\User.class
 com\demo\grpc\User$SignUpResponse$1.class
