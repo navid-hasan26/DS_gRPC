@@ -1,0 +1,27 @@
+syntax="proto3";
+option java_package = "com.demo.grpc";
+
+service user{
+  rpc SignUp(SignUpRequest) returns (SignUpResponse) ;
+  rpc LogIn(LogInRequest) returns (LogInResponse) ;
+
+}
+message SignUpRequest{
+  string email = 1;
+  string password = 2;
+}
+message SignUpResponse{
+  string token = 1;
+  string message = 2;
+  string code = 3;
+}
+
+message LogInRequest{
+  string email = 1;
+  string password = 2;
+}
+message LogInResponse{
+  string token = 1;
+  string code = 2;
+  string message = 3;
+}
