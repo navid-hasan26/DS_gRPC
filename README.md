@@ -1,1 +1,1 @@
-# DS_gRPC
+This is a simple application in JAVA using gRPC
