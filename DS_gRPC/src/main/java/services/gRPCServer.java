@@ -13,7 +13,7 @@ public class gRPCServer {
 
     public static void main(String[] args) {
 
-        Server server = ServerBuilder.forPort(1234).addService(new service.userService()).build();
+        Server server = ServerBuilder.forPort(1234).addService(new userService()).build();
         try {
             server.start();
             logger.info("Server started, listening on " + server.getPort());
@@ -22,8 +22,8 @@ public class gRPCServer {
             e.printStackTrace();
         }
         try {
-            server.awaitTermination(120, TimeUnit.SECONDS);
-            Database.getInstance().close();
+            server.awaitTermination(600, TimeUnit.SECONDS);
+            Database.getInstance();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

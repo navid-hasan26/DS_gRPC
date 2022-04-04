@@ -21,14 +21,12 @@ public class userService extends userGrpc.userImplBase{
 
             response.setMessage("Log in successfully");
             response.setCode("200");
-            response.setToken("Token");
             logger.info("Log in successfully");
 
         }
         else{
             response.setMessage("Log in failed");
             response.setCode("400");
-            response.setToken("");
             logger.info("Log in failed");
         }
         responseObserver.onNext(response.build());

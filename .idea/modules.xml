@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DS_gRPC.iml" filepath="$PROJECT_DIR$/.idea/DS_gRPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DS_gRPC/gRPC.iml" filepath="$PROJECT_DIR$/DS_gRPC/gRPC.iml" />
+    </modules>
+  </component>
+</project>
